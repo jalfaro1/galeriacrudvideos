@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    padding: 15px;
+}
+
+#header {
+    border:1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#header h1 {
+    text-align:center;
+}
+
+#content {
+    min-height: 100px;
+    border:1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding: 15px;
+}
+
+#footer {
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#datatable tr td {
+    font-size: 13px;
+}
